@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/trafficData.css" />
+    <link rel="icon" href="../img/traffic-light.png">
+    <title>Cyber Traffic Data</title>
+</head>
+<body>
+
+<div id="map"></div>
+
+<script type="text/javascript">
+    function initMap() {
+        var location = {lat: 42.314079, lng: -83.036858};
+        var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 8,
+            center: location
+        });
+        var marker = new google.maps.Marker({
+            position: location,
+            map: map
+        });
+    }
+</script>  
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDs1FgErQA6WbqTtZFd0Xtp4Qc5r1iFX6A&callback=initMap"></script>
+
+</body>
+</html>
