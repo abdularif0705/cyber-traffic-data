@@ -1,24 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    /* Box Model Hack */
-    -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
-}
-
-#map {
-    height: 500px;
-    width: 50%;
-    margin-left: 300px;
-    margin-top: -300px;
-    position: relative;
-}
-
-#input {
-    margin-top: 100px;
-}
-
 .topbanner {
   position: relative;
   text-align: left;
@@ -34,17 +13,31 @@
   font-family: didot;
 }
 
-.column {
-  float: left;
-  width: 70%;
-  padding: 0px;
-  margin: auto;
+.top-title {
+  position: absolute;
+  top: 400px;
+  left: 335px;
+  font-size: 100px;
+  font-family: didot;
+  text-align: center;
 }
-.columntwo {
-  float: right;
-  width: 30%;
-  padding: 0px;
-  margin: auto;
+
+.top-titleabout {
+  position: absolute;
+  top: 550px;
+  left: 710px;
+  font-size: 100px;
+  font-family: didot;
+  text-align: center;
+}
+
+.top-titleshop {
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  font-size: 100px;
+  font-family: didot;
+  text-align: center;
 }
 
 ul {
@@ -73,11 +66,29 @@ ul li a:hover {
 }
 
 header {
-  background-image: url(../img/augustine-wong-li0iC0rjvvg-unsplash.jpg);
+  background-image: url(../images/augustine-wong-li0iC0rjvvg-unsplash.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
 }
+
+img {
+  max-width: 100%;
+}
+
+
+
+figure.item {
+    text-align: center;
+}
+/*img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+.caption {
+    display: block;
+}*/
 
 .main {
   max-width: 1200px;
@@ -85,7 +96,7 @@ header {
 }
 
 body {
-  background-image: url(../img/augustine-wong-li0iC0rjvvg-unsplash.jpg);
+  background-image: url(../images/augustine-wong-li0iC0rjvvg-unsplash.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -122,29 +133,30 @@ body {
   text-align: center;
   position: relative;
   left: 45;
-  margin-top: 250px;
+  margin-top: 200px;
   margin-bottom: 5px;
   font-size: 5em;
 }
 
-.btn {
-  position: absolute;
-  left: 45%;
-  margin-top: 50px;
-  margin-bottom: 100px;
-  border: 1px solid black;
-  padding: 10px 30px;
-  color: black;
-  text-decoration: none;
-  transition: 0.6s ease;
+.contactpagestyle {
+  text-align: center;
+  position: relative;
+  left: 45;
+  margin-top: 300px;
+  margin-bottom: 5px;
+  font-size: 5em;
 }
 
-.btn:hover {
-  background-color: black;
-  color: white;
+
+.localpic {
+  /*position: absolute;*/
+  top: 1200px;
+  left: 0px;
+  width: 100%;
+  margin-top: 1em;
 }
 
-figcaption {
+figcaption.style{
   font-size: 2em;
   /*font-weight: bold;*/
   font-style: oblique;
