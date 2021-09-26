@@ -10,34 +10,33 @@
 </head>
 <body>
     <header>
-        <div class="topbanner">
+      <div class="topbanner">
         <img
-          src="../img/jade-scarlato-sTO7MWOr4PM-unsplash.jpg"
-          alt="Local Sneakers Banner"
+          src="../img/localview.jpeg"
+          alt="Cyber Traffic Data Banner"
           style="width: 100%"
         />
 
         <div class="top-left">
-          Cyber Traffic <br/>
-          Data
+          Cyber Traffic Data
         </div>
 
-        <div class="row">
+<!--         <div class="row">
           <div class="column">
             <img
-              src="../img/localview.jpeg"
-              alt="Local View"
+              src="../img/montana-safe-driving.png"
+              alt="montana highway"
               style="width: 100%"
             />
           </div>
           <div class="columntwo">
             <img
-              src="../img/shoebannerpic.jpeg"
-              alt="Shoes picture"
+              src="../img/calgary-traffic-bw.png"
+              alt="calgary-traffic-jam"
               style="width: 100%"
             />
           </div>
-        </div>
+        </div> -->
 
         <ul>
             <li><a href="trafficData.html">Home</a></li> 
@@ -61,7 +60,7 @@
     function initMap() {
         var location = {lat: 42.314079, lng: -83.036858};
         var map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 8,
+            zoom: 12,
             center: location
         });
         var marker = new google.maps.Marker({
