@@ -8,12 +8,13 @@
 }
 
 #map {
-    height: 100%;
-    width: 50%;
-    margin-left: 500px;
-    margin-top:  -300px;
-    position: relative;
-    margin-bottom: 100px;
+    height: 105%;
+    width: 100%;
+    margin-left: 0px;
+    
+    margin-right: 0px;
+    
+    
 
    
 }
@@ -25,11 +26,11 @@
   /*box-sizing: border-box;*/
 
   
-  margin-right: 50%;
+  margin-right: 0px;
 }
 
 input[type=text], select, textarea {
-  width: 50%;
+  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
