@@ -46,13 +46,57 @@
       </div>
     </header>
 
-    <div class="text" id="input">
-        <form action ="">
-        <label for="tweet">Enter Your Tweet Here:</label><br>
-        <textarea id="tweet" name="tweet" rows="10" cols="35"></textarea><br>
-        <label for="twitter id" id="Username">Twitter Id</label><br><input type="text" name="twitter id" id="Username"><br>
-    </form>
+    <div class="container">
+  <form action="">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Start Time:</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="00:00" required="required">
+      </div>
     </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">End Time</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="00:00" required="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Vehicle Type</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country" required="required">
+          <option value="select">Select</option>
+          <option value="car">Car</option>
+          <option value="canada">Bike</option>
+          <option value="usa">Bi-Cycle</option>
+          <option value="usa">Bus</option>
+          <option value="usa">Ambulance</option>
+          <option value="usa">FireEngine</option>
+          <option value="usa">Truck</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Choose Commercial/Non-Commercial:</label>
+        <select id="country" name="country">
+            <option value="australia">Select</option>
+          <option value="australia">Commercial</option>
+          <option value="canada">Non-Commercial</option>
+      </select>
+      </div>
+      
+    </div>
+    <div class="row">
+      <input type="submit" value="Predict">
+    </div>
+  </form>
+</div>
 
 <div id="map"></div>
 
