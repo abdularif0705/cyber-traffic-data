@@ -9,7 +9,7 @@ This site allows local Windsorites to learn more about their local traffic in ho
 We allow users to access Windsor’s OpenData API and see the output from their entry
 
 ## Building 🚧
-Abdul and Harsh worked on the Frontend while Vidhi did Machine Learning through Python. Implemented Google Maps API in JavaScript to create a site for visualizing Traffic data using City of Windsor’s OpenData API
+Machine Learning through Python. Implemented Google Maps API in JavaScript to create a site for visualizing Traffic data using City of Windsor’s OpenData API
 
 ## Accomplishments that we're proud of 🏆
 Learning new stuff along the way and building something that can actually create impact. Also that we were not restricted to the problem statement and tried to explore new ideas to tackle traffic problems
